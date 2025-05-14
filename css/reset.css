@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url("./fonts.css");
+:root {
+  --bg-color: #fff;
+  --color: #333;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  vertical-align: middle;
+}
+html {
+  font: normal 14px/1 "arial";
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--color);
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+dl,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+i,
+address,
+em {
+  font-style: normal;
+}
+header,
+main,
+footer,
+nav,
+aside,
+section,
+article {
+  position: relative;
+  display: block;
+}
+.hide {
+  display: none;
+}
+.blind {
+  display: block;
+  overflow: hidden;
+  text-indent: -9999px;
+}
